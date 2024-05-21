@@ -1,0 +1,131 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #0c0c0c;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #ec2d2d;
+  color: #0c0c0c;
+  box-shadow: 0 0 10px rgba(33, 32, 32, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #151414;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #333;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
+
+
+.product-list,
+.drink-list {
+  width: 48%; 
+  float: left; 
+  margin-right: 2%; 
+}
+
+.product-item,
+.drink-item {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; 
+  padding: 20px;
+  text-align: center;
+}
+
+.product-item h2,
+.drink-item h2 {
+  margin: 10px 0;
+  color: #151414; 
+}
+
+.product-item p,
+.drink-item p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ec2d2d; 
+}
+
+@media screen and (max-width: 768px) {
+  .product-list,
+  .drink-list {
+    width: 100%;
+    float: none; 
+    margin-right: 0; 
+  }
+}
+
+
+body.home {
+  background-image: url('taustakuva.jpg');
+}
+
+
+body.products-page {
+  background-image: url('menu.jpg');
+}
+body.tietoa-meista { 
+  background-image: url('uuni.jpg');
+}
+
+.hero img {
+  max-width: 100%; 
+  height: auto; 
+}
